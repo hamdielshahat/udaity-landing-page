@@ -3,8 +3,8 @@
 ## Table of Contents
 
 - [Instructions](#instructions)
-- [Description][#description]
-- [Live Demo][#livedemo]
+- [Description](#description)
+- [Live Demo](#livedemo)
 
 ## Instructions
 
