@@ -23,4 +23,4 @@ It allows no more than 10 sections.
 
 ## Live Demo
 
-[Project on Github]()
+[Hamdi's Project on Github](https://hamdielshahat.github.io/udaity-landing-page/)
