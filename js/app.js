@@ -85,11 +85,11 @@ const toggleActiveSection = () => {
   for (section of sections) {
     const activeNav = document.querySelector(`a[data-nav-item=${section.id}]`);
     if (isInViewport(section)) {
-      // add active nav
-      if (activeNav) activeNav.classList.add("active-nav");
       // add active section if not added
       if (!section.classList.contains("your-active-class")) {
         section.classList.add("your-active-class");
+        // add active nav
+        if (activeNav) activeNav.classList.add("active-nav");
       }
     } else {
       // remove active classes from unshown sections
