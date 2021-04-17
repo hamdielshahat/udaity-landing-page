@@ -53,12 +53,15 @@ const createOneItem = (itemNo) => {
 const isInViewport = (element) => {
   const sectionPosition = element.getBoundingClientRect();
   if (
-    sectionPosition.top >= 0 &&
+    window.document.documentElement.clientHeight / 2 > sectionPosition.top &&
+    document.documentElement.clientHeight / 2 < sectionPosition.bottom
+
+    // sectionPosition.top >= 0 &&
     // sectionPosition.left >= 0 &&
     // sectionPosition.right <=
     //   (window.innerWidth || document.documentElement.clientWidth) &&
-    sectionPosition.bottom <=
-      (window.innerHeight || document.documentElement.clientHeight)
+    // sectionPosition.bottom <=
+    //   (window.innerHeight || document.documentElement.clientHeight)
   ) {
     return true;
   } else {
